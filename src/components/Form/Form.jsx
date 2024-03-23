@@ -15,6 +15,7 @@ export const Form = () => {
       id: nanoid(),
       text: value,
     };
+    console.log(todo, "todo")
     dispatch(addTodo(todo));
     setValue("");
   };

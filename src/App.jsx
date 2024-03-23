@@ -11,10 +11,10 @@ export const App = () => {
       <Section>
         <Container>
           <Form />
-          {todos.length === 0 && (
+          {todos.length === 0 ? (
             <Text textAlign="center">Create your first todo😉</Text>
-          )}
-          <TodoList />
+          ):( <TodoList />) }
+         
         </Container>
       </Section>
     </>
