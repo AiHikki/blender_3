@@ -1,5 +1,4 @@
 import { FiSearch } from "react-icons/fi";
-
 import style from "./Form.module.css";
 import { useState } from "react";
 import { addTodo } from "reduxTodo/todosSlice";
